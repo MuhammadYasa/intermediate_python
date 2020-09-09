@@ -21,3 +21,5 @@ print(brics)
 print('\n')
 brics = pd.read_csv("brics.csv", index_col=0)
 print(brics)
+
+brics.to_csv("data.csv")
